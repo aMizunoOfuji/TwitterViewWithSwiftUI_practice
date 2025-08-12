@@ -10,9 +10,33 @@
 		BFEDD3992E49A05300D6571E /* TwitterViewWithSwiftUI_practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterViewWithSwiftUI_practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BFEDD3C62E4B7DCC00D6571E /* Exceptions for "TwitterViewWithSwiftUI_practice" folder in "TwitterViewWithSwiftUI_practice" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main/Data/data.json,
+			);
+			target = BFEDD3982E49A05300D6571E /* TwitterViewWithSwiftUI_practice */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		BFEDD3C72E4B7DCC00D6571E /* Exceptions for "TwitterViewWithSwiftUI_practice" folder in "Compile Sources" phase from "TwitterViewWithSwiftUI_practice" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = BFEDD3952E49A05300D6571E /* Sources */;
+			membershipExceptions = (
+				main/Data/data.json,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		BFEDD39B2E49A05300D6571E /* TwitterViewWithSwiftUI_practice */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BFEDD3C62E4B7DCC00D6571E /* Exceptions for "TwitterViewWithSwiftUI_practice" folder in "TwitterViewWithSwiftUI_practice" target */,
+				BFEDD3C72E4B7DCC00D6571E /* Exceptions for "TwitterViewWithSwiftUI_practice" folder in "Compile Sources" phase from "TwitterViewWithSwiftUI_practice" target */,
+			);
 			path = TwitterViewWithSwiftUI_practice;
 			sourceTree = "<group>";
 		};
